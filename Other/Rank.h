@@ -77,7 +77,7 @@ public:
         std::map<std::string, std::future<std::string>> futures;
         std::mutex queryMutex;
         std::wstring host = L"pubg1.rump.asia";
-        std::wstring seasons = L"31"; // Èü¼¾
+        std::wstring seasons = L"32"; // Èü¼¾
 
         for (const auto& name : names) {
             if (QuerySuccess[name] || QueryCount[name] >= 2) {
