@@ -15,7 +15,7 @@
 
 **示例**: 
 ```
-http://pubg1.rump.asia:8088/api/pubg/getPlayerInfoByName?name=WackyJacky101
+http://pubg1.rump.asia:8088/api/pubg/getPlayerInfoByName?name=1iky-_-&seasons=31
 ```
 
 ---
