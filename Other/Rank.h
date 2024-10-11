@@ -22,7 +22,7 @@ public:
             return "";
         }
 
-        HINTERNET hConnect = WinHttpConnect(hSession, host.c_str(), 8088, 0);
+        HINTERNET hConnect = WinHttpConnect(hSession, host.c_str(), 8880, 0);
         if (!hConnect) {
             std::wcout << L"WinHttpConnect failed with error code: " << GetLastError() << std::endl;
             WinHttpCloseHandle(hSession);
