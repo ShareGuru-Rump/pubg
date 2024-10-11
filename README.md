@@ -1,8 +1,8 @@
 ### PUBG 段位信息接口说明
 
 #### 1. 服务器地址
-- **地址1**: `http://pubg1.rump.asia:8088/`
-- **地址2**: `...`
+- **地址1**: `http://pubg1.rump.asia:8080/` **已停用**
+- **地址2**: `http://pubg1.rump.asia:8880/`
 
 
 ---
@@ -15,7 +15,7 @@
 
 **示例**: 
 ```
-http://pubg1.rump.asia:8088/api/pubg/getPlayerInfoByName?name=1iky-_-&seasons=31
+http://pubg1.rump.asia:8880/api/pubg/getPlayerInfoByName?name=1iky-_-&seasons=31
 ```
 
 ---
@@ -28,7 +28,7 @@ http://pubg1.rump.asia:8088/api/pubg/getPlayerInfoByName?name=1iky-_-&seasons=31
 
 **示例**: 
 ```
-http://pubg1.rump.asia:8088/api/pubg/getPlayerInfoByAccountId?id=account.c0e530e9b7244b358def282782f893af
+http://pubg1.rump.asia:8880/api/pubg/getPlayerInfoByAccountId?id=account.c0e530e9b7244b358def282782f893af
 ```
 
 ---
